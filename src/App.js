@@ -1,6 +1,6 @@
-import './App.css';
 import Hero from '../src/components/Hero/Hero'
 import Main from '../src/components/Main/Main'
+import './App.css';
 
 function App() {
   return (
