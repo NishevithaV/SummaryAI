@@ -53,3 +53,19 @@
     margin-top: 3.25rem;
     max-width: 800px;
 }
+
+@media screen and (max-width: 650px) {
+    .summarizer__hero-heading h1 { 
+        font-size: 60px;
+        line-height: 62px;
+    }
+
+    .summarizer__hero-heading h4 {
+        font-size: 14.5px;
+    }
+
+    .summarizer__hero-text {
+        font-size: 14px;
+        margin-top: 2.5rem;
+    }
+}
