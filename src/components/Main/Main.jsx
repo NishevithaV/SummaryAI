@@ -72,6 +72,7 @@ const Main = () => {
           )
         )}
       </div>
+      
     </main>
   )
 }

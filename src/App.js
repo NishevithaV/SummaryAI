@@ -1,5 +1,4 @@
-import Hero from '../src/components/Hero/Hero'
-import Main from '../src/components/Main/Main'
+import { Hero, Main, Footer } from '../src/components'
 import './App.css';
 
 function App() {
@@ -10,6 +9,7 @@ function App() {
         <Hero />
         <Main />
       </div>
+      <Footer />
     </div>
   );
 }

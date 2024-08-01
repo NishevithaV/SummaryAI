@@ -1,0 +1,12 @@
+.summarizer__footer {
+    text-align: center;
+    z-index: 20;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.summarizer__footer p {
+    font-family: var(--lato);
+    color: black;
+    font-size: 12.5px;
+}

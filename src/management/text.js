@@ -15,7 +15,7 @@ export const textApi = createApi({
     }),
     endpoints: (builder) => ({
         getResult: builder.query({
-            query: (params) => `/summarize?url=${encodeURIComponent(params.textUrl)}&length=3`,
+            query: (params) => `/summarize?url=${encodeURIComponent(params.textUrl)}&length=5`,
         })
     })
 });

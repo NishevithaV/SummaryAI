@@ -74,8 +74,8 @@
 }
 
 .summarizer__main-display .bounce__loader {
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     object-fit: contain;
 }
 
