@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
-const apiKey = process.env.RAPID_API_SUMMARY_KEY
+const apiKey = process.env.REACT_APP_RAPID_API_SUMMARY_KEY;
 
 export const textApi = createApi({
     reducerPath: 'textApi',
@@ -15,9 +15,9 @@ export const textApi = createApi({
     }),
     endpoints: (builder) => ({
         getResult: builder.query({
-            query: (params) => `/summarize?url=${encodeURIComponent(params.textUrl)}&length=12`
+            query: (params) => `/summarize?url=${encodeURIComponent(params.textUrl)}&length=3`,
         })
     })
-})
+});
 
 export const { useLazyGetResultQuery } = textApi;

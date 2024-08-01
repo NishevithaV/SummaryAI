@@ -6,4 +6,4 @@ export const store = configureStore({
         [textApi.reducerPath]: textApi.reducer
     }, 
     middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(textApi.middleware)
-})
+});
