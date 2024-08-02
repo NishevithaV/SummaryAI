@@ -113,6 +113,7 @@
 }
 
 .summarizer__main-display-result__text {
+    position: relative;
     border-radius: 1rem;
     font-family: var(--lato);
     border: 1px solid rgba(135, 206, 250, 0.6);
@@ -121,6 +122,16 @@
     letter-spacing: 1.01px;
     font-size: 15.5px;
     padding: 1.1rem;
+}
+
+.summarizer__main-display-result__text
+.summarizer__main-display-result__text-copy {
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+    cursor: pointer;
+    width: 1.15rem;
+    height: 1.15rem;
 }
 
 @media screen and (max-width: 650px){

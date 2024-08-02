@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { bounce, clipboard, enter, url } from '../../assets'
+import { bounce, clipboard, enter, url, completed } from '../../assets'
 import { useLazyGetResultQuery } from '../../management/text'
 import './Main.css'
 
@@ -11,6 +11,8 @@ const Main = () => {
   });
 
   const [getResult, { error, isFetching }] = useLazyGetResultQuery();
+
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     const savedText = JSON.parse(localStorage.getItem("currentText"))
@@ -30,6 +32,14 @@ const Main = () => {
       setText(newText);
       localStorage.setItem("currentText", JSON.stringify(newText))
     }
+  };
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(text.summary)
+      .then(() => {
+        setCopied(true);
+        setTimeout(() => setCopied(false), 5000)
+      })
   };
 
   return (
@@ -64,6 +74,11 @@ const Main = () => {
                  Content Overview
               </h2>
               <div className="summarizer__main-display-result__text">
+                <img src={copied ? completed : clipboard}
+                alt={copied ? 'copied' : 'copy'}
+                className="summarizer__main-display-result__text-copy"
+                onClick={handleCopy}
+                />
                 <p>
                   {text.summary}
                 </p>
