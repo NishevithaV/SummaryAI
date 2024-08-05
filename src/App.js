@@ -3,13 +3,15 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="page-wrapper">
       <div className="background"></div>
       <div className="main">
         <Hero />
         <Main />
       </div>
-      <Footer />
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
 }

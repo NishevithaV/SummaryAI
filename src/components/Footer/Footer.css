@@ -1,8 +1,7 @@
 .summarizer__footer {
     text-align: center;
     z-index: 20;
-    position: relative;
-    padding: 0.5rem;
+    width: 100%;
 }
 
 .summarizer__footer p {
