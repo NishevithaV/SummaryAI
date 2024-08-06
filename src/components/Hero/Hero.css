@@ -28,7 +28,7 @@
 .summarizer__hero-heading h1 {
     font-family: var(--lato);
     color: #3627e3;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 78px;
     line-height: 80px;
     margin-bottom: 0;
@@ -37,6 +37,7 @@
 .summarizer__hero-heading h4 {
     margin: 0;
     font-family: var(--lato);
+    font-weight: 700;
     color: #bd83f7;
     font-size: 18.5px;
     margin-top: 0.6px;
@@ -47,7 +48,7 @@
     font-family: var(--lato);
     color: #a29cb4;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 1.15px;
     text-align: center;
     margin-top: 3.25rem;

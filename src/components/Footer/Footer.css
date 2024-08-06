@@ -6,6 +6,7 @@
 
 .summarizer__footer p {
     font-family: var(--lato);
+    font-weight: 400;
     color: black;
     font-size: 12.5px;
 }

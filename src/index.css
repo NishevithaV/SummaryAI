@@ -3,5 +3,8 @@
 
 :root {
   --lato: 'Lato', sans-serif;
-  --georgia: 'Georgia', serif; 
+}
+
+h1, h4, p {
+  font-family: 'Lato', sans-serif;
 }
