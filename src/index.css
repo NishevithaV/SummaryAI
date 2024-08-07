@@ -1,11 +1,16 @@
 @import 'normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Georgia:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 :root {
-  --lato: 'Lato', sans-serif;
+  --primary : 'Montserrat', sans-serif;
+  --secondary : 'DM Sans', sans-serif;
 }
 
-h1, h4, p {
-  font-family: 'Lato', sans-serif;
+h1, p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  font-family: 'DM Sans', sans-serif;
 }

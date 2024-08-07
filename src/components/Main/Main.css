@@ -33,7 +33,7 @@
     border-radius: 0.4rem;
     background-color: white;
     padding: 0.63rem 3rem 0.63rem 2.5rem;
-    font-family: var(--lato);  
+    font-family: var(--primary);  
     font-weight: 400;  
     font-size: 0.875rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -79,18 +79,18 @@
 }
 
 .summarizer__main-display__error {
-    font-family: var(--lato);
+    font-family: var(--primary);
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16.5px;
     letter-spacing: 1.15px;
     color: black;
     text-align: center;
 }
 
 .summarizer__main-display__error .summarizer__main-display__error-text {
-    font-family: var(--lato);
+    font-family: var(--primary);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 1.15px;
     color: black;
     text-align: center;
@@ -103,10 +103,10 @@
 }
 
 .summarizer__main-display-result h2 {
-    font-family: var(--lato);
+    font-family: var(--primary);
     font-weight: 700;
-    font-size: 24px;
-    line-height: 22px;
+    font-size: 22px;
+    line-height: 20px;
     letter-spacing: 1.25px;
     color: #504d59;
 }
@@ -114,12 +114,12 @@
 .summarizer__main-display-result__text {
     position: relative;
     border-radius: 1rem;
-    font-family: var(--lato);
+    font-family: var(--primary);
     border: 1px solid rgba(135, 206, 250, 0.6);
     background-color: white;
     color: #504d59;
     letter-spacing: 1.01px;
-    font-size: 15.5px;
+    font-size: 14px;
     padding: 1.1rem;
 }
 

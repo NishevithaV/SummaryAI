@@ -26,28 +26,25 @@
 }
 
 .summarizer__hero-heading h1 {
-    font-family: var(--lato);
     color: #3627e3;
     font-weight: 700;
-    font-size: 78px;
+    font-size: 75.5px;
     line-height: 80px;
     margin-bottom: 0;
 }
 
 .summarizer__hero-heading h4 {
     margin: 0;
-    font-family: var(--lato);
     font-weight: 700;
     color: #bd83f7;
-    font-size: 18.5px;
-    margin-top: 0.6px;
+    font-size: 17.2px;
+    margin-top: 1.15px;
     text-align: right;
 }
 
 .summarizer__hero-text {
-    font-family: var(--lato);
     color: #a29cb4;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: 1.15px;
     text-align: center;
@@ -57,16 +54,16 @@
 
 @media screen and (max-width: 650px) {
     .summarizer__hero-heading h1 { 
-        font-size: 60px;
+        font-size: 53px;
         line-height: 62px;
     }
 
     .summarizer__hero-heading h4 {
-        font-size: 14.5px;
+        font-size: 13px;
     }
 
     .summarizer__hero-text {
-        font-size: 14px;
+        font-size: 12.5px;
         margin-top: 2.5rem;
     }
 }
